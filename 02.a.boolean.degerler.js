@@ -25,6 +25,12 @@ var z={2:'js'}
 console.log(z)// dönen değer 2 :"js"
 console.log(Boolean(z))
 
-var t =""&&-2&&'js'
-console.log(t)
+var t =""&&-2&&'js' 
+console.log(t)// salakça değer çıkmadan döndü :/
+console.log(Boolean(t))// değer dönmediği için false değer döndü boolean
+
+var a=false || 0
+console.log(a)// bize çıktı gelen değer  0 dır false zaten 0, 0 yada 0 dönen değerde false oluyor.
+console.log(Boolean(a))// dönen boolean değeri false çıkacaktır. 
+
 
